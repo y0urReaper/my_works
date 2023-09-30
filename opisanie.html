@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Описание работы</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <style>
+        body{
+            background-color: #DCDCDC;
+            min-width: 1422px;
+        }
+        header{
+            background-color: white;
+            height: 2cm;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            border: 0px solid #666;
+        }
+        img.omg{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 2cm;
+        }
+        .div1{
+            display: inline-block;
+        }
+        
+        .btn{
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            padding: 10px 40px;
+            margin: 0 20px;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 600;
+            line-height: 30px;
+            color: white;
+            font-size: 15px;
+            text-transform: uppercase;
+            background: #3f3fb6;
+            border-width: 0;
+            box-shadow: 5px 5px 0 #33acd8;
+            outline: none;
+            cursor: pointer;
+            transition: 1.5s;
+        }
+        .btn:before, .btn:after{
+            content: "";
+            position: absolute;
+            height: 200px;
+            left: -50%;
+            margin-top: -100px;
+            top: 50%;
+            width: 200px;
+            border-radius: 50%;
+            opacity: 0.3;
+            z-index: -1;
+            transform: scale(0);
+        }
+        .btn:before {
+            background: #b3d0da;
+            transition: .8s ease-out;
+        }
+        .btn:after {
+            transition: .4s ease-in .3s;
+        }
+        .btn:hover {
+            color: #696969;
+        }
+        .btn:hover:before, .btn:hover:after {
+            opacity: 1;
+            transform: scale(4);
+        }
+        hr{
+            height: 4px;
+            width: 800px;
+            background-color: #33acd8;
+            border-radius: 50%;
+        }
+        p{
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
+        .telo{
+            width: 1404px;
+            background-color: white;
+            height: 100%;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            border: 0px solid #666;
+            padding: 20px 25px;
+        }
+        li{
+            font-size: 17px;
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
+        .plan{
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="div1" style="position: relative; left: 5.2cm; bottom: 35px;">
+            <form action="praktika.html">
+                <button class="btn">Практическая часть</button>
+            </form>
+        </div>
+        <div class="div1" style="position: relative; left: 10cm">
+            <img src="https://союзспо.рф/wp-content/uploads/2023/05/%D0%BA%D0%B8%D0%BF%D1%84%D0%B8%D0%BD.jpg" alt="" class="omg">
+        </div>
+        <div class="div1" style="position: relative; left: 14cm; bottom: 35px;">
+            <form action="theiria.html">
+                <button class="btn">Теоретическая часть</button>
+            </form>
+        </div>
+    </header>
+    <br><b><p align="center" style="font-size: 35px; text-shadow: 2px 2px 2px #696969,
+        3px 3px 1px #696969; color: #B0C4DE; letter-spacing: 4px;">Описание</p></b><hr><br>
+    <div class="telo">
+        <p style="text-indent: 30px; text-align:center;"><i>На данной странице представлено описание практической работы на тему "Ускорение свободного падения на телах Солнечной системы".</i></p>
+        <p style="text-indent: 30px; text-align:justify;"><b>Автор работы:</b> Шабанов Глеб Дмитриевич, студент <a href="http://www.fa.ru/org/spo/kip/Pages/Home.aspx" target="_blank" style="text-decoration: none; ">Колледжа информатики и программирования при Финансовом университете Правительства Российской Федерации</a></p>
+        <p style="text-indent: 30px; text-align:justify;"><b>По всем вопросам:</b><a href="mailto:glebshabanovv@mail.ru" target="_blanc" style="text-decoration: none; "> glebshabanovv@mail.ru</a> </p>
+        <p style="text-indent: 30px; text-align:justify;"><b>Цель создания работы:</b> Основной, самой главной целью, является изучение физического явления "ускорение свободного падения". В рамках этого изучение автору было предложено создание практического продукта - интерактивной лабораторной работы, с которой пользователь может ознакомиться и выполнить после нажатия кнопки "Практическая часть". Также автор проекта ставит перед собой личные цели создания продукта, способного приносить пользу студентам колледжа во время проведени занятий по предмету "Физика".</p>
+        <p style="text-indent: 30px; text-align:justify;">При переходе на страницу с практической частью работы, перед пользователем откроется консоль, в которой будет необходимо выбрать и установить несколько параметров, участвующих в подсчётах. Предполагается, что все необходимые параметры студенты получат от своего преподавателя. Список параметров включает в себя: <u>тело Солнечной системы</u>, <u>расстояние до тела соответственно</u>. Также есть параметры, которые не вводятся пользователем, а генерируются случайным образом при выполнении действия в консоли: <u>масса тела</u>, <u>ускорение свободного падения</u> - эти два параметра будут необходимы пользователю для проведения дальнейших расчётов.</p>
+        <p class="plan" style="text-align: center; text-shadow: 2px 2px 2px #696969,
+        3px 3px 1px #696969; color: #B0C4DE; letter-spacing: 4px;">План работы</p>
+        <div class="div1">
+            <img src="arrow.jpg" style="width: 200px; position:relative; bottom: 500px; left: 200px; transform: rotate(30deg);">
+        </div>
+        <div class="div1">
+            <img src="arrow.jpg" style="width: 200px; position:relative; bottom: 300px; left: 10px;">
+        </div>
+        <div class="div1">
+            <img src="arrow.jpg" style="width: 200px; position:relative; bottom: 100px; right: 200px; transform: rotate(330deg);">
+        </div>
+        <div class="div1">
+            <img src="plan.png" alt="" style="width: 600px; position: relative; right: 200px;">
+        </div>
+        <div class="div1">
+            <img src="arrow.jpg" style="width: 200px; position:relative; bottom: 240px; left: 1000px; transform: rotate(225deg);">
+        </div>
+        <div class="div1">
+            <img src="arrow.jpg" style="width: 200px; position:relative; bottom: 440px; left: 800px; transform: rotate(180deg);">
+        </div>
+        <div class="div1">
+            <img src="arrow.jpg" style="width: 200px; position:relative; bottom: 640px; left: 600px; transform: rotate(135deg);">
+        </div>
+    </div>
+</body>
+</html>

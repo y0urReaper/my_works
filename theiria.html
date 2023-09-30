@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <title>Теоретическая часть</title>
+    <style>
+        body{
+            background-color: #DCDCDC;
+            min-width: 1422px;
+        }
+        header{
+            background-color: white;
+            height: 2cm;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            border: 0px solid #666;
+        }
+        img.omg{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 2cm;
+        }
+        .div1{
+            display: inline-block;
+        }
+        .btn{
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            padding: 10px 40px;
+            margin: 0 20px;
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-weight: 600;
+            line-height: 30px;
+            color: white;
+            font-size: 15px;
+            text-transform: uppercase;
+            background: #3f3fb6;
+            border-width: 0;
+            box-shadow: 5px 5px 0 #33acd8;
+            outline: none;
+            cursor: pointer;
+            transition: 1.5s;
+        }
+        .btn:before, .btn:after{
+            content: "";
+            position: absolute;
+            height: 200px;
+            left: -50%;
+            margin-top: -100px;
+            top: 50%;
+            width: 200px;
+            border-radius: 50%;
+            opacity: 0.3;
+            z-index: -1;
+            transform: scale(0);
+        }
+        .btn:before {
+            background: #b3d0da;
+            transition: .8s ease-out;
+        }
+        .btn:after {
+            transition: .4s ease-in .3s;
+        }
+        .btn:hover {
+            color: #696969;
+        }
+        .btn:hover:before, .btn:hover:after {
+            opacity: 1;
+            transform: scale(4);
+        }
+        .telo{
+            width: 1404px;
+            background-color: white;
+            height: 100%;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            border: 0px solid #666;
+            padding: 20px 25px;
+        }
+        hr{
+            height: 4px;
+            width: 800px;
+            background-color: #33acd8;
+            border-radius: 50%;
+        }
+        p{
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
+        h2{
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
+        .zakon{
+            background-color: #b3d0da;
+            width: 250px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        td{
+            text-align: center;
+            font-family: 'Montserrat Alternates', sans-serif;
+        }
+        .tabl{
+            border-color: #33acd8;
+            border-collapse: collapse;
+            position: relative;
+            left: 250px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="div1" style="position: relative; left: 5.5cm; bottom: 35px;">
+            <form action="opisanie.html">
+                <button class="btn">Описание работы</button>
+            </form>
+        </div>
+        <div class="div1" style="position: relative; left: 10.5cm">
+            <img src="https://союзспо.рф/wp-content/uploads/2023/05/%D0%BA%D0%B8%D0%BF%D1%84%D0%B8%D0%BD.jpg" alt="" class="omg">
+        </div>
+        <div class="div1" style="position: relative; left: 15cm; bottom: 35px;">
+            <form action="praktika.html">
+                <button class="btn">Практическая часть</button>
+            </form>
+        </div>
+    </header>
+    <br><b><p align="center" style="font-size: 35px; text-shadow: 2px 2px 2px #696969,
+                                                                    3px 3px 1px #696969; color: #B0C4DE; letter-spacing: 4px;">Теория</p></b><hr><br>
+    <div class="telo">
+        <p style="text-indent: 30px;">На данной странице Вам представлена вся необходимая теоретическая информация, которая касается темы <u>"Определение ускорения свободного падения на телах Солнечной системы</u>! Информация будет разбита на несколько разделов для более комфортного чтения.</p>
+        <h2>Введение: </h2>
+        <p style="text-indent: 30px; text-align:justify;">Задолго до появления всеми известного Исаака Ньютона и его предшественника - Галилео Галилея, с момента появления «культа» философов, которые пытались объяснить фундаментальные физические действия и по сей день, учёные изучают параметр – ускорение свободного падения. Не имея представления об этом параметре, человечество не могло бы прийти к тем открытиям, которые расширяют наш кругозор в изучении мира. В современной науке, главным параметром стало – ускорение свободного падения на телах Солнечной системы. Готовясь к посещению и дальнейшему освоению планет нашей родной системы, мы обязаны выявить максимум знаний из наших открытий, которые начинаются именно с определения ускорения свободного падения на планете. </p>
+        <h2>Первый раздел: "Основа кинематики"</h2>
+        <p style="text-indent: 30px; text-align:justify;">Ещё в XVII веке, учёный Галилео Галилей смог выдвинуть гипотезу о том, что все тела движутся не "просто так", а с постепенным увеличением собственной скорости. Так учёный вывел следующие законы падения тел для идеального случая: все тела при падении движутся одинаково; начав падать одновременно, они движутся с одинаковой скоростью; движение происходит с так называемым "постоянным ускорением"; темп увеличения скорости тела не меняется, т.е. за каждую последующую единицу времени скорость тела меняется на одну и ту же величину.</p>
+        <p style="text-indent: 30px; text-align:justify;">Следующим этапом в развитии этой теории стало откратие Исаака Ньютона, который на протяжении многих лет понимал, что тело не может притягиваться к Земле, при этом не имя никакой обратной силы. Оказывается, Ньютон был прав и он сам это доказал! С помощью параметров: масса тела, масса Земли, которую впервые посчитал Генри Кавендиш в 1798 году, а также гравитационная постоянная, Ньютон выводит "Закон всемирного тяготения". Если обратиться к понятию «сила тяжести» и воспользоваться формулой Закона Всемирного тяготения, то можно получить формулу ускорения свободного падения. </p>
+        <div class="zakon" style="position:relative; left: 200px;">
+            <p>Закон всемирного тяготения:</p>
+            <p><c-skysmart-math-live-input>
+                <c-skysmart-katex formula="F = G \frac{Mm}{R^2}" _nghost-skysmartapp-c86="" ng-version="15.1.4"><div _ngcontent-skysmartapp-c86="" style="font-size: 20px; text-align: center;"><sky-katex _ngcontent-skysmartapp-c86="" _nghost-skysmartapp-c85=""><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo>=</mo><mi>G</mi><mfrac><mrow><mi>M</mi><mi>m</mi></mrow><msup><mi>R</mi><mn>2</mn></msup></mfrac></mrow></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.68333em; vertical-align: 0em;"></span></sky-katex></div></c-skysmart-katex>
+                </c-skysmart-math-live-input></p>
+            <p><i><b>F</b></i> - сила тяготения [H]<br><br><i><b>M</b></i> - масса 1-ого тела (как правило планеты) [кг]<br><br><i><b>m</b></i> - масса 2-ого тела [кг]<br><br><i><b>R</b></i> - расстояние между двумя телами [м]<br><br><i><b>G</b></i> - гравитационная постоянная</p>
+            <p ><i><b>G</b></i> = 6,67 · 10<sup>−11</sup>м<sup>3</sup> · кг<sup>−1</sup> · с<sup>−2</sup></p>
+        </div>
+        <div class="div1" style="position:relative; left: 300px">
+            <img src="исаак2.jpg">
+            <p><b><i>Исаак Ньютон (1643 - 1727 гг)</i></b></p>
+        </div>
+        <div class="zakon" style="position:relative; bottom: 55px; height: 355px; left: 420px;">
+            <p>Закон всемирного тяготения:</p>
+            <p><c-skysmart-math-live-input>
+                <c-skysmart-katex formula="g = G \frac{M}{R^2}" _nghost-skysmartapp-c86="" ng-version="15.1.4"><div _ngcontent-skysmartapp-c86="" style="font-size: 20px; text-align: center;"><sky-katex _ngcontent-skysmartapp-c86="" _nghost-skysmartapp-c85=""><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo>=</mo><mi>G</mi><mfrac><mi>M</mi><msup><mi>R</mi><mn>2</mn></msup></mfrac></mrow><annotation encoding="application/x-tex">g = G \frac{M}{R^2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.19444em;"></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right: 0.10903em;">M</span></span></span></span></span><span class="vlist-s">&ZeroWidthSpace;</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></sky-katex></div></c-skysmart-katex>
+                </c-skysmart-math-live-input></p>
+            <p><i><b>g</b></i> - ускорение свободного падения [м/с^2]<br><br><i><b>M</b></i> - масса планеты [кг]<br><br><i><b>R</b></i> - расстояние между телами [м]<br><br><i><b>G</b></i> - гравитационная постоянная</p>
+            <p><i><b>G</b></i> = 6,67 · 10<sup>−11</sup>м<sup>3</sup> · кг<sup>−1</sup> · с<sup>−2</sup></p>
+        </div>
+        <h2>Второй раздел: "Ускорение свободного падения на телах Солнечной системы"</h2>
+        <p style="text-indent: 30px; text-align:justify;">Ниже представлена таблица, в которой будут отображены приблизительные значения ускорения свободного падения, а также формулы, по которым эти значения были выведены. Для проведения различных расчетов, данные формулы и их значения соответственно применяются по сей день физиками со всего мира!</p>
+        <div class="div1" style="position:relative; bottom: 600px; transform: rotate(-27deg);">
+            <img src="qwest.jpg" style="width: 200px;">
+        </div>
+        <div class="div1" align="center">
+        <table border="10" width="500px" class="tabl">
+            <tr>
+                <td colspan="2">Ускорение свободного падения</td>
+            </tr>
+            <tr>
+                <td><i>Тело Солнечной системы</i></td>
+                <td width="250px"><i>Формула ускорения</i></td>
+            </tr>
+            <tr>
+                <td><b>Меркурий</b></td>
+                <td width="250px"><img src="1.png" style="width:250px;"></td>
+            </tr>
+            <tr>
+                <td><b>Венера</b></td>
+                <td width="250px"><img src="2.png" style="width:250px;"></td>
+            </tr>
+            <tr>
+                <td><b>Земля</b></td>
+                <td width="250px"><img src="3.png" alt="" style="width:250px;"></td>
+            </tr>
+            <tr>
+                <td><b>Марс</b></td>
+                <td width="250px"><img src="4.png" style="width:250px;"></td>
+            </tr>
+            <tr>
+                <td><b>Юпитер</b></td>
+                <td width="250px"><img src="5.png" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td><b>Сатурн</b></td>
+                <td width="250px"><img src="6.png" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td><b>Уран</b></td>
+                <td width="250px"><img src="7.png" style="width:250px;"></td>
+            </tr>
+            <tr>
+                <td><b>Нептун</b></td>
+                <td width="250px"><img src="8.png" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td><b>Плутон</b></td>
+                <td width="250px"><img src="9.png" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td><b>Луна</b></td>
+                <td width="250px"><img src="10.png" style="width:250px;"></td>
+            </tr>
+            <tr>
+                <td><b>Солнце</b></td>
+                <td width="250px"><img src="11.png" style="width: 250px;"></td>
+            </tr>
+        </table>
+        </div>
+        <div class="div1">
+            <img src="win.jpg" style="width: 200px; position:relative; bottom: 150px; left: 400px; transform: rotate(27deg);">
+        </div>
+    </div>
+</body>
+</html>
